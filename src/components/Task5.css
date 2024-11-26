@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  background-color: #f0f8ff; /* Light blue background */
+  border: 2px solid #87ceeb; /* Sky blue border */
+  border-radius: 8px;
+  padding: 15px;
+  min-height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.column:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-item {
+  background-color: #ffebcd; /* Light beige background */
+  border: 1px solid #deb887; /* Brownish border */
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555; /* Gray text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.task-item:hover {
+  transform: translateY(-5px); /* Move slightly upward on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+}
+
+h3 {
+  text-align: center;
+  color: #87ceeb; /* Sky blue color */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.task-item:nth-child(odd) {
+  background-color: #e6ffe6; /* Light green for odd tasks */
+}
+
+.task-item:nth-child(even) {
+  background-color: #ffe6e6; /* Light red for even tasks */
+}

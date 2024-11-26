@@ -1,0 +1,74 @@
+[
+  {
+    "Customer": "John Smith",
+    "LastSeen": "2023-11-06",
+    "Orders": "8",
+    "TotalSpent": "1124.57",
+    "LatestPurchase": "2023-11-02",
+    "News": "Referred a new customer",
+    "Segment": "VIP"
+  },
+  {
+    "Customer": "Emily Davis",
+    "LastSeen": "2023-11-05",
+    "Orders": "3",
+    "TotalSpent": "647.91",
+    "LatestPurchase": "2023-11-01",
+    "News": "Recently bought electronics",
+    "Segment": "Premium"
+  },
+  {
+    "Customer": "Michael Brown",
+    "LastSeen": "2023-10-22",
+    "Orders": "1",
+    "TotalSpent": "87.00",
+    "LatestPurchase": "2023-10-20",
+    "News": "First-time shopper",
+    "Segment": "New"
+  },
+  {
+    "Customer": "Sophia Johnson",
+    "LastSeen": "2023-11-03",
+    "Orders": "15",
+    "TotalSpent": "2540.50",
+    "LatestPurchase": "2023-10-29",
+    "News": "Purchased seasonal clothing",
+    "Segment": "VIP"
+  },
+  {
+    "Customer": "Liam Martinez",
+    "LastSeen": "2023-10-28",
+    "Orders": "5",
+    "TotalSpent": "560.00",
+    "LatestPurchase": "2023-10-25",
+    "News": "Gifted a product to a friend",
+    "Segment": "Premium"
+  },
+  {
+    "Customer": "Olivia Wilson",
+    "LastSeen": "2023-11-02",
+    "Orders": "2",
+    "TotalSpent": "190.75",
+    "LatestPurchase": "2023-11-01",
+    "News": "Signed up for newsletter",
+    "Segment": "New"
+  },
+  {
+    "Customer": "James Miller",
+    "LastSeen": "2023-10-30",
+    "Orders": "10",
+    "TotalSpent": "1487.20",
+    "LatestPurchase": "2023-10-28",
+    "News": "Participated in referral program",
+    "Segment": "VIP"
+  },
+  {
+    "Customer": "Isabella Garcia",
+    "LastSeen": "2023-11-04",
+    "Orders": "4",
+    "TotalSpent": "782.40",
+    "LatestPurchase": "2023-11-01",
+    "News": "Bought kitchen appliances",
+    "Segment": "Premium"
+  }
+]
